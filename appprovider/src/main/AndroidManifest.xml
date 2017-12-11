@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.provider.demo.provider">
+
+    <application>
+        <provider
+            android:authorities="com.provider.demo"
+            android:name=".AppProvider"
+            android:exported="true"/>
+    </application>
+</manifest>
